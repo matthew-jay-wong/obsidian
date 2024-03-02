@@ -1,0 +1,92 @@
+## Wrong Answers
+
+- AWS **Edge Locations** vs **Local Zones**
+	- **Edge Locations**, like a CDN are where AWS CloudFront cache copies of content for faster delivery to nearby users.
+	- **Local Zones**, allow you to deploy compute and storage closer to your users allowing for near to low latency of access. More fine grained then AZ.
+- AWS MFA Devices
+	- SMS
+		- This is one used by most places while they also sell your phone number out.
+	- Hardware
+		- Dad used to have these lying all over the house
+	- U2F
+		- Brown girl at work had to go to Toronto to pick this up for her client
+	- Virtual
+		- Had this installed on my TD laptop
+- Inspector vs Trusted Advisor vs Cost Explorer vs Cost & Usage Reports vs Budgets
+	- Inspector scans your aws services for security vulnerabilities 
+	- Trusted Advisor scans all your infrastructure and makes suggestions based on optimizing against the five categories of AWS best practices.
+	- Cost Explorer analyzes cost and usage over time including what is being under utilized
+	- Cost & Usage Reports are for outlining the total cost of all your infrastructure. They can be generated and stored in s3 buckets for reference/reporting.
+	- Budgets are used for setting alerts for when certain cost limits are reached.
+- Cloud Trail vs Cloud Watch
+	- Cloud Trail is used for logging aws account activity.
+	- Cloud watch is for monitoring metrics such as bandwidth, performance and traffic parameters for an app.
+- Enterprise Support Plan
+	- Provides online training with self paced labs
+- Block Level Store
+	- EBS
+	- Instance Store
+- Personal Health Dashboard vs Service Health Dashboard
+	- Personal Health Dashboard lets you know how AWS outages are affecting your services.
+	- Service Health Dashboard lets you know what AWS services are experiencing outages. Allows you to subscribe for events and updates.
+- AWS Quickstarts
+	- CloudFormation templates for commonly structured projects.
+- Pricing Calculator vs Cost Explorer
+	- Pricing Calculator allows you to compare contrast your current infrastructure cost vs what AWS would cost you.
+	- Cost Explorer lets you analyze current cost of your AWS services.
+- Docker/Containers -> AWS Fargate
+	- Serverless
+- AWS Systems Manager Session Manager (SSM)
+	- Allow you to SSH into EC2 without exposing ports
+- Serverless
+	- Lambda
+	- Lambda@Edge
+	- Fargate
+	- S3
+	- EFS
+	- DynamoDB
+	- Aurora Serverless
+	- RDS Proxy
+	- API Gateway
+	- SNS
+	- SQS 
+	- AppSync
+		- GraphQL for mobile apps to combine multiple api calls.
+	- Step Functions
+	- Kinesis
+		- Analyze data streams
+	- Athena
+		- Analyze across S3 with SQL
+	- Code*
+- 6 Advantages of AWS Cloud
+	- Trade capex for varex
+	- Benefit from economies of scale
+	- Stop Guessing capacity
+	- Increase speed and agility
+	- Go global in minutes
+	- Stop sending money on data centers
+- Systems Manager
+	- Allows you to group certain resources and perform analysis on said group
+- Elastic Load Balancer (ELB)
+	- High Availability
+	- Faul Tolerance 
+- AMI
+	- Tied to a region but can be copied from region to region.
+- DynamoDB w/ Globel Tables
+	- Automated multi-region replication
+- Read Replicate
+	- Improves scalability
+- Optimize EC2
+	- Setup auto scaling
+	- Use reserved instances
+- AWS Compute Optimizer
+	- EC2, EC2 - ASG
+	- EBS
+	- LAmbda
+- EC2
+	- Minimum 1min
+- Regular Occurring Backup of logs
+	- CloudWatch + Lambda
+- Automatically Enabled Encryption
+	- Storage Gateway
+	- Glacier
