@@ -1,0 +1,6 @@
+- [Next.js](https://nextjs.org/docs)
+	- SSR React Framework
+- UI Library
+	- [shadcn/ui](https://ui.shadcn.com/docs/)
+	- [Maintine](https://mantine.dev/core)
+- 
